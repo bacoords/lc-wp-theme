@@ -55,7 +55,7 @@
                             <?php wp_nav_menu(
                                     array(
                                         'theme_location' => 'primary',
-                                        'container_class' => 'collapse navbar-toggleable-xs navbar-right exCollapsingNavbar',
+                                        'container_class' => 'collapse navbar-toggleable-xs pull-md-right exCollapsingNavbar',
                                         'menu_class' => 'nav navbar-nav',
                                         'fallback_cb' => '',
                                         'menu_id' => 'main-menu',
