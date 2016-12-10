@@ -22,6 +22,8 @@
 
                     <div class="site-info">
                         
+                        &copy; Left Coast CrossFit <?php echo date('Y'); ?>
+                        
                     </div><!-- .site-info -->
 
                 </footer><!-- #colophon -->

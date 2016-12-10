@@ -1,3 +1,19 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
 @import 'https://fonts.googleapis.com/css?family=Raleway:400,700';
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+
+// Widgets Above Footer
+#wrapper-footer-full{
+  
+}
+
+
+// Bottom Footer
+#wrapper-footer{
+  background: #333333;
+  .site-info{
+    color: #fff;
+    text-align: center;
+  }
+}

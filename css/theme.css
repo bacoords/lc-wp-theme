@@ -6853,3 +6853,9 @@ a.skip-link {
 .fa-fa:before,
 .fa-font-awesome:before {
   content: ""; }
+
+#wrapper-footer {
+  background: #333333; }
+  #wrapper-footer .site-info {
+    color: #fff;
+    text-align: center; }

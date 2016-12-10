@@ -40,30 +40,30 @@ function understrap_widgets_init() {
         'name'          => __( 'Footer Left', 'understrap' ),
         'id'            => 'footerleft',
         'description'   => 'Widget area below main content and above footer',
-        'before_widget' => '',
-        'after_widget'  => '',
-        'before_title'  => '',
-        'after_title'   => '',
+        'before_widget' => '<div class="widget-footerleft">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3>',
+        'after_title'   => '</h3>',
     ) );
 
         register_sidebar( array(
         'name'          => __( 'Footer Center', 'understrap' ),
         'id'            => 'footercenter',
         'description'   => 'Widget area below main content and above footer',
-        'before_widget' => '',
-        'after_widget'  => '',
-        'before_title'  => '',
-        'after_title'   => '',
+        'before_widget' => '<div class="widget-footercenter">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3>',
+        'after_title'   => '</h3>',
     ) );
 
         register_sidebar( array(
         'name'          => __( 'Footer Right', 'understrap' ),
         'id'            => 'footerright',
         'description'   => 'Widget area below main content and above footer',
-        'before_widget' => '',
-        'after_widget'  => '',
-        'before_title'  => '',
-        'after_title'   => '',
+        'before_widget' => '<div class="widget-footerright">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3>',
+        'after_title'   => '<h3>',
     ) );
 
 }
