@@ -37,8 +37,28 @@ function understrap_widgets_init() {
     ) );
 
         register_sidebar( array(
-        'name'          => __( 'Footer Full', 'understrap' ),
-        'id'            => 'footerfull',
+        'name'          => __( 'Footer Left', 'understrap' ),
+        'id'            => 'footerleft',
+        'description'   => 'Widget area below main content and above footer',
+        'before_widget' => '',
+        'after_widget'  => '',
+        'before_title'  => '',
+        'after_title'   => '',
+    ) );
+
+        register_sidebar( array(
+        'name'          => __( 'Footer Center', 'understrap' ),
+        'id'            => 'footercenter',
+        'description'   => 'Widget area below main content and above footer',
+        'before_widget' => '',
+        'after_widget'  => '',
+        'before_title'  => '',
+        'after_title'   => '',
+    ) );
+
+        register_sidebar( array(
+        'name'          => __( 'Footer Right', 'understrap' ),
+        'id'            => 'footerright',
         'description'   => 'Widget area below main content and above footer',
         'before_widget' => '',
         'after_widget'  => '',
