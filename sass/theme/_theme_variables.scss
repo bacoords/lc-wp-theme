@@ -5,7 +5,7 @@
 // Thats the ugly Bootstrap blue used for all the links, primary buttons etc.
 // Just add your color code here, compile the theme.scss file to change this color everywhere
 
-$brand-primary:         #895cd1; //#ff6d5a
+$brand-primary:         #c23c40; //#ff6d5a
 
 // Basics of a navbar
 $navbar-height:                    90px;
@@ -17,4 +17,6 @@ $font-family-sans-serif:  'Raleway', sans-serif !default;
 $font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
 //** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
 $font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
-$font-family-base:        $font-family-sans-serif !default;
+$font-family-base:        'Open Sans', sans-serif;
+
+$headings-font-family:     $font-family-sans-serif;
