@@ -47,10 +47,20 @@ function understrap_widgets_init() {
     ) );
 
         register_sidebar( array(
-        'name'          => __( 'Footer Center', 'understrap' ),
-        'id'            => 'footercenter',
+        'name'          => __( 'Footer Left Center', 'understrap' ),
+        'id'            => 'footerleftcenter',
         'description'   => 'Widget area below main content and above footer',
-        'before_widget' => '<div class="widget-footercenter">',
+        'before_widget' => '<div class="widget-footerleftcenter">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3>',
+        'after_title'   => '</h3>',
+    ) );
+
+        register_sidebar( array(
+        'name'          => __( 'Footer Right Center', 'understrap' ),
+        'id'            => 'footerrightcenter',
+        'description'   => 'Widget area below main content and above footer',
+        'before_widget' => '<div class="widget-footerrightcenter">',
         'after_widget'  => '</div>',
         'before_title'  => '<h3>',
         'after_title'   => '</h3>',
