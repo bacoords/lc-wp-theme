@@ -5,7 +5,7 @@
     <div class="wrapper" id="wrapper-footer-full">
     
     
-        <div class="container">
+        <div class="container-fluid">
           
           
           <div class="row">
