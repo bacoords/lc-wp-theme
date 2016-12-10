@@ -63,7 +63,7 @@ function understrap_widgets_init() {
         'before_widget' => '<div class="widget-footerright">',
         'after_widget'  => '</div>',
         'before_title'  => '<h3>',
-        'after_title'   => '<h3>',
+        'after_title'   => '</h3>',
     ) );
 
 }
