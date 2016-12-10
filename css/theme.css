@@ -6854,6 +6854,12 @@ a.skip-link {
 .fa-font-awesome:before {
   content: ""; }
 
+#wrapper-footer-full ul#menu-footer-menu {
+  padding: 0px; }
+  #wrapper-footer-full ul#menu-footer-menu li.menu-item {
+    display: block;
+    float: none; }
+
 #wrapper-footer {
   background: #333333; }
   #wrapper-footer .site-info {

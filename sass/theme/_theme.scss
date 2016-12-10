@@ -5,7 +5,13 @@
 
 // Widgets Above Footer
 #wrapper-footer-full{
-  
+  ul#menu-footer-menu{
+    padding: 0px;
+    li.menu-item{
+      display: block;
+      float: none;
+    }
+  }
 }
 
 

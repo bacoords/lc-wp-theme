@@ -22,7 +22,7 @@
 
                     <div class="site-info">
                         
-                        &copy; Left Coast CrossFit <?php echo date('Y'); ?>
+                        &copy; <?php echo date('Y'); ?> Left Coast CrossFit.
                         
                     </div><!-- .site-info -->
 
