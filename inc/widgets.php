@@ -42,8 +42,8 @@ function understrap_widgets_init() {
         'description'   => 'Widget area below main content and above footer',
         'before_widget' => '<div class="widget-footerleft">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3>',
-        'after_title'   => '</h3>',
+        'before_title'  => '<h4>',
+        'after_title'   => '</h4>',
     ) );
 
         register_sidebar( array(
@@ -52,8 +52,8 @@ function understrap_widgets_init() {
         'description'   => 'Widget area below main content and above footer',
         'before_widget' => '<div class="widget-footerleftcenter">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3>',
-        'after_title'   => '</h3>',
+        'before_title'  => '<h4>',
+        'after_title'   => '</h4>',
     ) );
 
         register_sidebar( array(
@@ -62,8 +62,8 @@ function understrap_widgets_init() {
         'description'   => 'Widget area below main content and above footer',
         'before_widget' => '<div class="widget-footerrightcenter">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3>',
-        'after_title'   => '</h3>',
+        'before_title'  => '<h4>',
+        'after_title'   => '</h4>',
     ) );
 
         register_sidebar( array(
@@ -72,8 +72,8 @@ function understrap_widgets_init() {
         'description'   => 'Widget area below main content and above footer',
         'before_widget' => '<div class="widget-footerright">',
         'after_widget'  => '</div>',
-        'before_title'  => '<h3>',
-        'after_title'   => '</h3>',
+        'before_title'  => '<h4>',
+        'after_title'   => '</h4>',
     ) );
 
 }
