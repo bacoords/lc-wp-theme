@@ -44,3 +44,60 @@
 .navbar-toggle span.icon-bar {
   background-color: $brand-primary;
 }
+
+
+//Blog
+.post{
+  .entry-header{
+    margin-bottom: 3rem;
+    .entry-title{
+      font-weight: 900;
+      
+    }
+    .entry-meta {
+      font-weight: 900;
+      text-transform: uppercase;
+      font-size: 0.8rem;
+    }
+  }
+  .entry-content{
+    margin-bottom: 3rem;
+  }
+  .entry-footer{
+    margin-bottom: 3rem;
+    .edit-link{
+      display: none;
+    }
+  }
+  .comment-area{
+    .reply-title{
+      background: #494949;
+      color: #fff;
+      padding: 0.3rem;
+      font-size: 1rem;
+      text-transform: uppercase;
+      font-weight: 900;
+    }
+  }
+}
+
+
+
+//Sidebar
+.widget-area{
+  .widget{
+    margin-bottom: 3rem;
+    h3.widget-title{
+      background: #494949;
+      color: #fff;
+      padding: 0.3rem;
+      font-size: 1rem;
+      font-weight: 900;
+      text-transform: uppercase;
+    }
+    ul{
+      list-style-type: none;
+      padding-left: 0.3rem;
+    }
+  }
+}

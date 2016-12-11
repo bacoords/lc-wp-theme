@@ -6880,3 +6880,41 @@ a.skip-link {
 
 .navbar-toggle span.icon-bar {
   background-color: #c23c40; }
+
+.post .entry-header {
+  margin-bottom: 3rem; }
+  .post .entry-header .entry-title {
+    font-weight: 900; }
+  .post .entry-header .entry-meta {
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 0.8rem; }
+
+.post .entry-content {
+  margin-bottom: 3rem; }
+
+.post .entry-footer {
+  margin-bottom: 3rem; }
+  .post .entry-footer .edit-link {
+    display: none; }
+
+.post .comment-area .reply-title {
+  background: #494949;
+  color: #fff;
+  padding: 0.3rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 900; }
+
+.widget-area .widget {
+  margin-bottom: 3rem; }
+  .widget-area .widget h3.widget-title {
+    background: #494949;
+    color: #fff;
+    padding: 0.3rem;
+    font-size: 1rem;
+    font-weight: 900;
+    text-transform: uppercase; }
+  .widget-area .widget ul {
+    list-style-type: none;
+    padding-left: 0.3rem; }
