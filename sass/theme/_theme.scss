@@ -31,3 +31,16 @@
     text-align: center;
   }
 }
+
+
+// Navbar Stuff
+.navbar-brand img{
+    height: 50px;
+    width: auto;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.navbar-toggle span.icon-bar {
+  background-color: $brand-primary;
+}

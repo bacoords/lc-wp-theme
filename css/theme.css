@@ -6871,3 +6871,12 @@ a.skip-link {
   #wrapper-footer .site-info {
     color: #fff;
     text-align: center; }
+
+.navbar-brand img {
+  height: 50px;
+  width: auto;
+  margin-top: -10px;
+  margin-bottom: -10px; }
+
+.navbar-toggle span.icon-bar {
+  background-color: #c23c40; }
