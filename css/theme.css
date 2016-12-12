@@ -6906,6 +6906,11 @@ a.skip-link {
   text-transform: uppercase;
   font-weight: 900; }
 
+body.archive .page-header {
+  margin-bottom: 3rem; }
+  body.archive .page-header .page-title {
+    font-weight: 900; }
+
 .widget-area .widget {
   margin-bottom: 3rem; }
   .widget-area .widget h3.widget-title {
@@ -6918,3 +6923,40 @@ a.skip-link {
   .widget-area .widget ul {
     list-style-type: none;
     padding-left: 0.3rem; }
+
+/* Default Button Style */
+.fl-builder-content a.fl-button {
+  background-color: #c23c40;
+  border-color: #c23c40;
+  border-radius: 0px !important;
+  transition: all 300ms ease; }
+
+.fl-builder-content a.fl-button .fl-button-text {
+  color: #fff; }
+
+.fl-builder-content a.fl-button:hover {
+  background-color: #333335;
+  border-color: #333335; }
+
+/* Widgets in Footer */
+.widget-footer {
+  text-align: center;
+  max-width: 400px;
+  margin: 45px auto; }
+
+.widget-footer h4 {
+  padding-bottom: 15px;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.3);
+  margin-bottom: 15px;
+  font-weight: 900;
+  font-size: 1rem;
+  text-transform: uppercase; }
+
+@media (min-width: 768px) {
+  .widget-footer {
+    text-align: left;
+    margin: 15px auto; } }
+
+/* Navbar Overrides */
+.navbar {
+  text-transform: uppercase; }
